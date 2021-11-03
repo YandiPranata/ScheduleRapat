@@ -1,4 +1,8 @@
 <resources>
     <dimen name="newsMoreTextSize">12sp</dimen>
+<<<<<<< HEAD
     <dimen name="form_app_bar_height">100dp</dimen>
+=======
+    <dimen name="form_app_bar_height">140dp</dimen>
+>>>>>>> 8466c677ffddc73fae459ec994b1b8a9c4691845
 </resources>

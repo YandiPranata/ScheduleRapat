@@ -23,7 +23,11 @@ class FormTambah : AppCompatActivity() {
     private lateinit var tanggal: String
     private lateinit var waktu: String
     private var dbAdd: DatabaseRapat?=null
+<<<<<<< HEAD
     val databaseHelper= DatabaseHelper(this)
+=======
+    private val databaseHelper= DatabaseHelper(this)
+>>>>>>> 8466c677ffddc73fae459ec994b1b8a9c4691845
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,7 +68,10 @@ class FormTambah : AppCompatActivity() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8466c677ffddc73fae459ec994b1b8a9c4691845
     }
 
     private fun showTimePicker() {
