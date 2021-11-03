@@ -23,7 +23,7 @@ class FormTambah : AppCompatActivity() {
     private lateinit var tanggal: String
     private lateinit var waktu: String
     private var dbAdd: DatabaseRapat?=null
-    val databaseHelper= DatabaseHelper(this)
+    private val databaseHelper= DatabaseHelper(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -63,7 +63,6 @@ class FormTambah : AppCompatActivity() {
 
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
-
 
     }
 

@@ -2,19 +2,10 @@
 <com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/form_app_bar_height"
-    android:fitsSystemWindows="true"
     android:id="@+id/app_bar"
     android:background="@drawable/centre_background"
     android:theme="@style/AppTheme.AppBarOverlay"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
-        <com.google.android.material.appbar.CollapsingToolbarLayout
-            android:id="@+id/toolbar_layout_header"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fitsSystemWindows="true"
-            app:contentScrim="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -63,7 +54,7 @@
                     android:id="@+id/iv_logout"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:layout_marginStart="88dp"
+                    android:layout_marginStart="65dp"
                     android:src="@drawable/ic_logout"
                     app:layout_constraintBottom_toBottomOf="@+id/tv_header1"
                     app:layout_constraintStart_toEndOf="@+id/tv_header1"
@@ -74,7 +65,7 @@
                     android:id="@+id/tv_welcome"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="136dp"
+                    android:layout_marginStart="116dp"
                     android:layout_marginTop="24dp"
                     android:text="Welcome, "
                     android:textStyle="bold"
@@ -91,6 +82,5 @@
                     app:layout_constraintStart_toEndOf="@+id/tv_welcome"
                     app:layout_constraintTop_toTopOf="@+id/tv_welcome" />
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
